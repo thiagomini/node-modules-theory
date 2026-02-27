@@ -1,8 +1,12 @@
 {
-  "name": "node-modules-theory",
+  "name": "hello-node-module-system",
   "version": "1.0.0",
   "private": true,
-  "description": "Toy package to test out how node modules work",
+  "description": "Toy package to test node module system",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

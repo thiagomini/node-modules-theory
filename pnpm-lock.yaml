@@ -7,3 +7,5 @@ settings:
 importers:
 
   .: {}
+
+  packages/hello-node-module-system: {}
