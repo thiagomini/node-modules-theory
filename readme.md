@@ -27,3 +27,11 @@ A host is the system that ultimately decides:
 ## TSConfig tips
 
 See official docs for more details: https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html
+
+## General Concepts
+
+Typescript main job can be described by these three steps:
+
+- Compiling the input files to an output with the correct module format (CSJ vs ESM).
+- Ensuring the import statements in the output files (like import foo from 'foo.js') will resolve correctly in the target host.
+- Knowing what types to assign to the imported names.
