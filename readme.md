@@ -23,3 +23,7 @@ A host is the system that ultimately decides:
 - How imports/exports are interpreted at runtime
   If something consumes imports and decides what file gets loaded, it’s a host.
   If something just transforms code without touching module boundaries, it’s not.
+
+## TSConfig tips
+
+See official docs for more details: https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html
