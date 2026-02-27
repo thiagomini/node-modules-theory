@@ -2,8 +2,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "module": "nodenext",
-    "target": "esnext",
     "moduleResolution": "nodenext",
-    "outDir": "dist/esm"
+    "outDir": "dist/esm",
+        "rewriteRelativeImportExtensions": true,
+
   }
 }

@@ -3,6 +3,8 @@
     "strict": true,
     "rewriteRelativeImportExtensions": true,
     "types": ["node"],
-    "target": "es2024"
+    "target": "es2015",
+    "outDir": "dist/old",
+    "module": "node16"
   }
 }

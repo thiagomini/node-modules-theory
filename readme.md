@@ -35,3 +35,9 @@ Typescript main job can be described by these three steps:
 - Compiling the input files to an output with the correct module format (CSJ vs ESM).
 - Ensuring the import statements in the output files (like import foo from 'foo.js') will resolve correctly in the target host.
 - Knowing what types to assign to the imported names.
+
+## Typescript Configuration Options
+
+- `target` → JS feature downleveling (async/await, optional chaining, etc.)
+- `module` → module format emitted (CJS vs ESM)
+- `moduleResolution` → how TypeScript resolves imports during type-checking to model the host
