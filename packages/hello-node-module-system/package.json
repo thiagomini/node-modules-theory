@@ -4,7 +4,7 @@
   "private": true,
   "description": "Toy package to test node module system",
   "scripts": {
-    "start": "node src/main.js",
+    "start": "node src/module.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
