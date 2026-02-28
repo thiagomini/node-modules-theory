@@ -4,7 +4,6 @@
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "outDir": "dist/esm",
-        "rewriteRelativeImportExtensions": true,
-
+    "rewriteRelativeImportExtensions": true
   }
 }
