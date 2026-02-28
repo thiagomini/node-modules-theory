@@ -3,6 +3,7 @@
     "strict": true,
     "rewriteRelativeImportExtensions": true,
     "types": ["node"],
-    "target": "es2024"
+    "target": "es2024",
+    "skipLibCheck": true
   }
 }
