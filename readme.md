@@ -2,6 +2,8 @@
 
 - **Module**: A file that contains code (functions, variables, etc.) that can be reused in other parts of the application. In Node.js, each file is considered a module.
 
+- **Module Resolution**: The process of taking the string in the "import" or "require" statement and determining what file that string refers to.
+
 - **Script**: A file that is executed directly by Node.js. It can contain code that runs immediately when the file is executed, and does not export anything for use in other files. Scripts share global scope.
 
 - **Host**: In the Typescript context, the host is "the system that ultimately consumes the output code to direct its module loading behavior.”.
