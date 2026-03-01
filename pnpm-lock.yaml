@@ -19,6 +19,19 @@ importers:
 
   packages/hello-node-module-system: {}
 
+  packages/typescript-app:
+    dependencies:
+      buildable-lib:
+        specifier: workspace:*
+        version: link:../buildable-lib
+    devDependencies:
+      '@types/node':
+        specifier: ^25.3.2
+        version: 25.3.2
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
   packages/typescript-module:
     devDependencies:
       '@types/node':

@@ -1,6 +1,5 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
-  "include": ["src/**/*"],
   "compilerOptions": {
     // File Layout
     "rootDir": "./src",
@@ -10,7 +9,6 @@
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "target": "esnext",
-
     // For nodejs:
     "lib": ["esnext"],
     "types": ["node"],
@@ -18,8 +16,6 @@
 
     // Other Outputs
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
@@ -39,10 +35,6 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
-
-    // Library Settings
-    // "composite": true,
-    "noEmitOnError": true
+    "skipLibCheck": true
   }
 }
