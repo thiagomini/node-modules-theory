@@ -24,6 +24,10 @@ importers:
       buildable-lib:
         specifier: workspace:*
         version: link:../buildable-lib
+    devDependencies:
+      '@types/node':
+        specifier: ^25.3.2
+        version: 25.3.2
 
   packages/typescript-app:
     dependencies:

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "dependencies": {
     "buildable-lib": "workspace:*"
@@ -14,5 +14,8 @@
   "keywords": [],
   "author": "Thiago Martins",
   "license": "ISC",
-  "packageManager": "pnpm@10.22.0"
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@types/node": "^25.3.2"
+  }
 }
