@@ -44,3 +44,18 @@ Typescript main job can be described by these three steps:
 - `module` → module format emitted (CJS vs ESM)
 - `moduleResolution` → how TypeScript resolves imports during type-checking to model the host
 - `isolatedModules` → forces the app to use syntax that is compatible with file-by-file transpilation used by some tools.
+
+## Project references in this workspace
+
+This workspace now includes TypeScript project references to model package dependencies:
+
+- `typescript-app` references `buildable-lib` for build ordering and incremental caching.
+- A root solution config (`tsconfig.solution.json`) builds referenced projects in graph order.
+- `node-app-with-ts` has an optional reference-driven typecheck config (`tsconfig.typecheck.json`) that emits only declaration files to `.typecheck`.
+
+Useful commands from workspace root:
+
+- `pnpm build:refs` → build the referenced build graph.
+- `pnpm build:refs:clean` → clean reference build outputs and caches.
+- `pnpm typecheck:refs` → run reference-driven typecheck graph (`buildable-lib` + `node-app-with-ts`).
+- `pnpm typecheck:refs:clean` → clean reference typecheck caches/outputs.

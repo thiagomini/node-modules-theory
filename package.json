@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "description": "Toy package to test out how node modules work",
+  "scripts": {
+    "build:refs": "tsc -b tsconfig.solution.json",
+    "build:refs:clean": "tsc -b tsconfig.solution.json --clean",
+    "typecheck:refs": "tsc -b tsconfig.typecheck.json",
+    "typecheck:refs:clean": "tsc -b tsconfig.typecheck.json --clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

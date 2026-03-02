@@ -1,8 +1,10 @@
 {
   "extends": "./tsconfig.base.json",
-  "exclude": ["test"],
+  "exclude": ["test", "dist"],
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "src"
-  }
+    "rootDir": "src",
+    "composite": true
+  },
+  "references": [{ "path": "../buildable-lib/tsconfig.esm.json" }]
 }

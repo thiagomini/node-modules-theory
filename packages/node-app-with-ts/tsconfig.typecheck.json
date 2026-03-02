@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./.typecheck"
+  },
+  "include": ["app/**/*.ts", "test/**/*.ts"],
+  "references": [{ "path": "../buildable-lib/tsconfig.esm.json" }]
+}

@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
 
   packages/buildable-lib:
     devDependencies:
@@ -28,6 +32,9 @@ importers:
       '@types/node':
         specifier: ^25.3.2
         version: 25.3.2
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
 
   packages/typescript-app:
     dependencies:

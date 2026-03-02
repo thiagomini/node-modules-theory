@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node app/index.ts",
-    "test": "node --test"
+    "test": "node --test",
+    "typecheck:refs": "tsc -b tsconfig.typecheck.json"
   },
   "dependencies": {
     "buildable-lib": "workspace:*"
@@ -19,6 +20,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.22.0",
   "devDependencies": {
-    "@types/node": "^25.3.2"
+    "@types/node": "^25.3.2",
+    "typescript": "^5.9.3"
   }
 }

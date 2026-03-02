@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/buildable-lib/tsconfig.esm.json" },
+    { "path": "./packages/buildable-lib/tsconfig.cjs.json" },
+    { "path": "./packages/typescript-app/tsconfig.build.json" }
+  ]
+}

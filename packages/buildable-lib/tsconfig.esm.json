@@ -2,6 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist/esm",
+    "composite": true,
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "verbatimModuleSyntax": true

@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/buildable-lib/tsconfig.esm.json" },
+    { "path": "./packages/node-app-with-ts/tsconfig.typecheck.json" }
+  ]
+}
