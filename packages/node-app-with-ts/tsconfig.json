@@ -5,6 +5,7 @@
     "erasableSyntaxOnly": true,
     "module": "nodenext",
     "moduleResolution": "nodenext",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true
   }
 }
