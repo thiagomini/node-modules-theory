@@ -19,6 +19,12 @@ importers:
 
   packages/hello-node-module-system: {}
 
+  packages/node-app-with-ts:
+    dependencies:
+      buildable-lib:
+        specifier: workspace:*
+        version: link:../buildable-lib
+
   packages/typescript-app:
     dependencies:
       buildable-lib:

@@ -1,0 +1,18 @@
+{
+  "name": "node-app-with-ts",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "buildable-lib": "workspace:*"
+  },
+  "keywords": [],
+  "author": "Thiago Martins",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0"
+}
