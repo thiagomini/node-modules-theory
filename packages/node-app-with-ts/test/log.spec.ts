@@ -1,4 +1,4 @@
-import { concatenateKeys } from '../app/concatenate-keys.ts';
+import { concatenateKeys } from '#app/concatenate-keys.ts';
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
 

@@ -4,6 +4,9 @@
   "description": "",
   "private": true,
   "type": "module",
+  "imports": {
+    "#app/*": "./app/*"
+  },
   "scripts": {
     "start": "node app/index.ts",
     "test": "node --test"
