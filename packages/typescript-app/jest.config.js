@@ -12,5 +12,4 @@ export default {
   transform: {
     ...tsJestTransformCfg,
   },
-  transformIgnorePatterns: ['node_modules/(?!((@)?buildable-lib|my-project)/)'],
 };

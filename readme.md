@@ -43,3 +43,4 @@ Typescript main job can be described by these three steps:
 - `target` → JS feature downleveling (async/await, optional chaining, etc.)
 - `module` → module format emitted (CJS vs ESM)
 - `moduleResolution` → how TypeScript resolves imports during type-checking to model the host
+- `isolatedModules` → forces the app to use syntax that is compatible with file-by-file transpilation used by some tools.
